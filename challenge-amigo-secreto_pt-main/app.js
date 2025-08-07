@@ -27,13 +27,10 @@ function sortearAmigo(){
         let index = Math.floor(Math.random() * amigosRestantes.length);
         let amigoSorteado = amigosRestantes[index];
         
-        // Remove the selected friend from the remaining list
         amigosRestantes.splice(index, 1);
         
-        // Find a friend who hasn't been assigned yet
         let amigoParaSortear = amigosRestantes[Math.floor(Math.random() * amigosRestantes.length)];
         
-        // Remove the selected friend from the remaining list
         amigosRestantes.splice(amigosRestantes.indexOf(amigoParaSortear), 1);
         
         amigosSorteados.push({amigo: amigoSorteado, sorteado: amigoParaSortear});
