@@ -13,7 +13,7 @@ A proposta é criar um sistema onde o usuário possa adicionar nomes de amigos e
 - **Visualizar lista**: Os nomes adicionados são exibidos abaixo do campo de entrada.
 - **Sortear amigo secreto**: Um botão "Sortear Amigo" realiza o sorteio aleatório de um nome da lista e exibe o resultado na tela.
 
-### 🛠 Tecnologias sugeridas
+### 🛠 Tecnologias aplicadas
 
 - HTML
 - CSS
@@ -33,6 +33,7 @@ A proposta é criar um sistema onde o usuário possa adicionar nomes de amigos e
 ### 🧑‍💻 Autor
 
 Desenvolvido como parte de um desafio de aprendizado.
+
 
 
 
